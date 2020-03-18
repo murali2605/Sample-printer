@@ -1,0 +1,18 @@
+.input-field.input-field-special > .input{
+    border-width: 0;
+}
+
+.input-field.input-field-regular > Dropdown.input{
+    padding-top: 6;
+    font-size: 16;
+}
+
+.input-field.input-field-vertical-disabled > .input-group > .input, .input-field.input-field-vertical-disabled  > .input {
+    background-color: transparent;
+    border-width: 0;
+    vertical-align: middle;
+}
+
+Label{
+    vertical-align: middle;
+}
