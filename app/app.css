@@ -1,8 +1,8 @@
 
-@import 'nativescript-theme-core/css/core.light.css';
+@import '~nativescript-theme-core/css/core.light.css';
 
-@import '~/font.css';
-@import '~/fontchanges.css';
+@import './font.css';
+@import './fontchanges.css';
 
 
 Page{
