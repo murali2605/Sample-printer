@@ -5,6 +5,7 @@ import { NativeScriptHttpModule } from "nativescript-angular/http";
 import {NativeScriptRouterModule} from "nativescript-angular/router";
 
 import { AppComponent } from "./app.component";
+import { Bluetoothservice } from "./services/bluetooth.service";
 
 @NgModule({
     declarations: [AppComponent,],
@@ -14,7 +15,7 @@ import { AppComponent } from "./app.component";
         NativeScriptHttpModule,
         NativeScriptRouterModule],
     schemas: [NO_ERRORS_SCHEMA],
-     providers:[],
+     providers:[Bluetoothservice],
     entryComponents:[]
 })
 export class AppModule { }
