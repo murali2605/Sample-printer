@@ -18,7 +18,7 @@
 		"@angular/http": "8.0.0-beta.10",
 		"@angular/platform-browser": "8.0.0",
 		"@angular/router": "8.0.0",
-		"moment": "^2.17.1",
+		"moment": "^2.29.2",
 		"nativescript-angular": "8.0.2",
 		"nativescript-print-zebra": "./plugins/nativescript-print-zebra-1.3.0.tgz",
 		"nativescript-theme-core": "~1.0.2",
